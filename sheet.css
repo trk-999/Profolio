@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,6 +15,7 @@ section {
     background-color:black;
     height: 75vh;
     color: white;
+    text-align: center;
     font-size: 23px;
 }
 
@@ -33,16 +36,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
     background-color: white;
     color: blue;
 }
 
 ul {
+    align-items: center;
     display: flex;
     list-style-type: none;
-    width: 475px;
-    justify-content: space-around;
+    width: 375px;
+    justify-content: space-between;
 }
 
 li {
@@ -70,7 +74,7 @@ h1 {
     width: 200px;
     height: 60px;
     border-radius: 25px;
-    background-color: blue;
+    background-color: white;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -78,12 +82,12 @@ h1 {
 }
 
 .button:hover {
-    background-color: gray;
+    background-color: gainsboro;
 }
 
 .button:active {
-    background-color: darkblue;
-    color: blue;
+    background-color: white;
+    color: gray;
 }
 
 .social-media {
@@ -123,6 +127,13 @@ h1 {
     box-shadow: 5px 5px 20px white;
 }
 
+.my-projects-2 {
+    width: 275px;
+    height: 290px;
+    color: white;
+    box-shadow: 5px 5px 20px white;
+}
+
 .coding-container {
     display: flex;
     justify-content: space-around;
@@ -131,4 +142,9 @@ h1 {
 .smalltext {
     font-size: 15px;
     font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
